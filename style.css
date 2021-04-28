@@ -1,0 +1,68 @@
+@font-face
+{
+    font-family:Dawning of a New Day;
+    src: url(fonts/DawningofaNewDay-Regular.ttf);
+}
+@import 
+{
+    url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+}
+.t_1
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sh_1
+{
+    width: 250px;
+    height: 100px;
+    background: linear-gradient(to bottom, #660000, #FF0000);
+    position:absolute;
+    top:55px;
+    left:252px;
+    z-index:1;
+    text-align: center;
+    font-family:Dawning of a New Day;
+    font-size: 62px;
+}
+.sh_2
+{
+    width: 250px;
+    height: 100px;
+    background: radial-gradient(at top, #663300, #660033);
+    position:absolute;
+    top:55px;
+    left:1px;
+    z-index:1;
+    text-align: center;
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 52px;
+}
+.sh_3
+{
+    width: 250px;
+    height: 100px;
+    background: radial-gradient(at top, #663300, #660033);
+    position:absolute;
+    top:55px;
+    left:504px;
+    z-index:1;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    font-size: 72px;
+}
+.sh_4:hover
+{
+    background-color: white;
+}
+.fon
+{
+    background: url(fon.jpg);
+    width: 755px;
+    height: 700px;
+    position:absolute;
+    top:1px;
+    left:1px;
+    z-index:1;
+}
